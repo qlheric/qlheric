@@ -1,6 +1,6 @@
 ## Hi, I'm qlheric 👋
 
-中文 LLM 场景的 AI Agent 应用开发者。专治一种病：**AI 说「成功了」，其实没有。**
+中文 LLM 场景的 AI Agent 应用开发者。
 
 ### 🧰 核心项目
 
