@@ -4,6 +4,7 @@
 
 ### 🧰 核心项目
 
+- **[zh-agent-bench](https://github.com/qlheric/zh-agent-bench)** — 中文 agent 工具调用基准：A 办公数据 / B 知识检索 / C 多工具编排，一套客观判分口径，clone 即跑。deepseek 与 gpt-6-astra 在 A/C 打平、**B 差 3 倍**（20% vs 60.83%）——考的是「肯不肯说『库里没有这条』」。判分器做过双标校准（κ=0.801）与偏置检测，三档封存防污染。
 - **[zhclean](https://github.com/qlheric/zhclean)** — 中文脏数据净化器：人名/地址/电话/公司名/金额/日期/身份证/邮箱八类字段，一键规范化 + 去重 + 清洗报告。**宁可漏改，绝不改坏**——每类规则带校验闸门（身份证按 GB 11643 重算校验码才敢修），benchmark 真实数与失败案例全部公开。
 - **[惜字如金 (xizi-rujin)](https://github.com/qlheric/xizi-rujin)** — 「拦截假绿」老审计 skill。AI 说「测试全过了」？先回答三问：**红过吗 / 错的抓得住吗 / 挂的那些呢**。没红过的绿，都是假绿。
 
